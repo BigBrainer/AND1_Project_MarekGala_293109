@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "184270978593",
+    "project_id": "martialhero-viauc",
+    "storage_bucket": "martialhero-viauc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184270978593:android:253fcf6237c11b103ead60",
+        "android_client_info": {
+          "package_name": "sk.martialhero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184270978593-4itd4gjkphu7900t48gqvm1ek00onrbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpnJJN-oZdSNrd2fCn2s__pq6ao2zfMd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184270978593-4itd4gjkphu7900t48gqvm1ek00onrbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Martial Hero</string>
+    <string name="register_first_name_hint">First name</string>
+    <string name="register_last_name_hint">Last Name</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_email_hint">Email</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="already_have_account">Already registered?</string>
+    <string name="sign_in_google">Or sign in with your google account</string>
+    <string name="login_button">Login</string>
+    <string name="sign_out">Sign out</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!--
+    Google auth
+    -->
+    <string name="server_client_id">184270978593-s95410i2cpseebs7qfcp65acmkt2cjmp.apps.googleusercontent.com</string>
 </resources>
