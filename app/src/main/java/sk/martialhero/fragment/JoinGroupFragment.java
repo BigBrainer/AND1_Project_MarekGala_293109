@@ -51,9 +51,6 @@ public class JoinGroupFragment extends Fragment {
         //Injected view model handles adapter setup
         adapter = joinGroupViewModel.setUpRecyclerViewAdapter();
 
-        joinGroupButton = view.findViewById(R.id.button_join_group);
-        joinGroupButton.setOnClickListener(listener);
-
         RecyclerView recyclerView = view.findViewById(R.id.join_group_recycler_view);
         recyclerView.hasFixedSize();
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -72,17 +69,6 @@ public class JoinGroupFragment extends Fragment {
         super.onStop();
         adapter.stopListening();
     }
-
-    View.OnClickListener listener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            switch (v.getId()) {
-                case R.id.button_join_group:
-
-                    break;
-            }
-        }
-    };
 
 
     //Hide toolbar with this code
