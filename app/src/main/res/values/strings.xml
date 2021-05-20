@@ -12,6 +12,27 @@
     <string name="sign_out">Sign out</string>
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
+    <string name="register_cancelled">Register cancelled</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="sign_in">Sign in</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="nav_header">Navigation header</string>
+    <string name="welcome_message">Welcome to Martial Hero!
+        Sign in to get started.</string>
+    <string name="create_group">Create group</string>
+    <string name="name_group_hint">Name your group...</string>
+    <string name="description_group_hint">Describe your group...</string>
+    <string name="location_group_hint">Where are you located...</string>
+    <string name="add_image">Tap to change image</string>
+    <string name="description_error">Description cannot be empty</string>
+    <string name="name_error">Group name cannot be empty</string>
+    <string name="location_error">Location cannot be empty</string>
+    <string name="switch_to_english">Switch to English</string>
+    <string name="switch_to_slovak">Switch to Slovak</string>
+    <string name="join_name_group_hint">Enter the group name you wish to join</string>
+    <string name="join_invitation_group_hint">Enter the invitation of the group</string>
+
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
@@ -21,4 +42,5 @@
     Google auth
     -->
     <string name="server_client_id">184270978593-s95410i2cpseebs7qfcp65acmkt2cjmp.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

@@ -1,2 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Martial Hero</string>
+    <string name="register_first_name_hint">Meno</string>
+    <string name="register_last_name_hint">Priezvisko</string>
+    <string name="register_password_hint">Heslo</string>
+    <string name="register_email_hint">Email</string>
+    <string name="title_activity_register">Registrácia</string>
+    <string name="already_have_account">Už ste zaregistrovaný?</string>
+    <string name="sign_in_google">Alebo sa prihláste s Google účtom</string>
+    <string name="login_button">Prihlásiť sa</string>
+    <string name="sign_out">Odhlásiť sa</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Heslo</string>
+    <string name="register_cancelled">Registrácia zrušená</string>
+    <string name="something_went_wrong">Niečo sa pokazilo!</string>
+    <string name="sign_in">Prihlásiť sa</string>
+    <string name="profile">Profil</string>
+    <string name="settings">Nastavenia</string>
+    <string name="nav_header">Navigácia</string>
+    <string name="welcome_message">Vitajte v Martial Hero! Prihláste sa prosím.</string>
+    <string name="create_group">Vytvoriť klub</string>
+    <string name="name_group_hint">Pomenujte váš klub</string>
+    <string name="description_group_hint">Popíšte svoj klub</string>
+    <string name="location_group_hint">Kde sa váš klub nachádza?</string>
+    <string name="add_image">Ťuknutím na obrázok ho zmeníte</string>
+    <string name="description_error">Popis nesmie ostať prázdny</string>
+    <string name="name_error">Meno klubu nesmie ostať prázdne</string>
+    <string name="location_error">Lokalita vášho klubu nesmie ostať prázdna</string>
+    <string name="switch_to_english">Prepnúť do angličtiny</string>
+    <string name="switch_to_slovak">Prepnúť do slovenčiny</string>
+    <string name="join_name_group_hint">Meno skupiny do ktorej sa chcete pridať</string>
+    <string name="join_invitation_group_hint">Pozvánkový kód</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <!--
+    Google auth
+    -->
+    <string name="server_client_id">184270978593-s95410i2cpseebs7qfcp65acmkt2cjmp.apps.googleusercontent.com</string>
+</resources>

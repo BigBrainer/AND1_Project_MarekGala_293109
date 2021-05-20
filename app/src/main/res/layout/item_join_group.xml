@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme"
+    android:id="@+id/join_group_alert_layout">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_layout_join_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/text_layout_join_group_invitation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_join_group_name"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/join_name_group_hint"
+            android:isScrollContainer="true"
+            android:singleLine="true"
+            android:visibility="visible" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_layout_join_group_invitation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_layout_join_group_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_join_group_invitation"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="@string/description_group_hint"
+            android:isScrollContainer="true"
+            android:singleLine="false"
+            android:visibility="visible" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

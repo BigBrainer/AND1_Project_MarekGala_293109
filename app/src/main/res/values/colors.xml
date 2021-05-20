@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorPrimaryDark">#000</color>
+    <color name="colorLoginButton">#E2A554</color>
     <color name="colorAccent">#11CFC5</color>
-    <color name="themeColor">#11CFC5</color>
+    <color name="colorLogin">#323232</color>
+    <color name="gray">#A6A6A6</color>
 
     <!--normal colors-->
-    <color name="darkTextColor">#020000</color>
+    <color name="blackTextColor">#020000</color>
+    <color name="green">#4CAF50</color>
 
 
     <!--colors for light mode-->
@@ -15,5 +17,6 @@
     <color name="login_bk_color">#fff</color>
     <color name="whiteTextColor">#fff</color>
     <color name="primaryTextColor">#11CFC5</color>
+
 
 </resources>
