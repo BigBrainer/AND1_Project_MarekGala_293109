@@ -21,7 +21,7 @@ As a developer, I want the localization to be done both in Slovak and English la
 As a club administrator, I want to be able to be able to manage the training schedule, so that I can keep the members up to date on when the club practice takes place.<br>
 As a club administrator, I want the members of a club to be able to communicate via instant messaging, so that they can get in contact.<br>
 
-Completed requirements
+Completed requirements<br>
 As a club administrator, I want to be able to create a new club, so that I can establish a platform for sharing content between the members. <br>
 As a club member, I want to be able to be able to authenticate using my email or google account, so that there is no mistaking in my identity and strangers won’t be invited accidentally. <br>
 As a developer, I want the localization to be done both in Slovak and English language, because I intend on deploying the app in Slovakia.<br>
